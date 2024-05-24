@@ -1,0 +1,141 @@
+:root {
+    --ff-sans: "Kumbh+Sans", sans-serif;
+  
+    --fs-
+  
+    //primary colors//
+    --clr-cyan: hsl(185, 75%, 39%);
+    --clr-desblue: hsl(229, 23%, 23%);
+    --clr-grayblue: hsl(227, 10%, 46%);
+  
+    //Neutral Colors//
+  
+    --clr-ntrl-500: hsl(0, 0%, 59%);
+  }
+  
+  *, *::before, *::after {
+  
+      box-sizing: border-box;
+    
+    }
+  
+  * {
+  
+      margin: 0;
+    
+    }
+  
+    
+    img, picture, video, canvas, svg {
+      display: block;
+      max-width: 100%;
+    }
+    
+    p, h1, h2, h3, h4, h5, h6 {
+      overflow-wrap: break-word;
+    }
+
+    body {
+        background-color: hsl(185, 75%, 39%);
+        max-height: 100vh;
+        font-family: Kumbh Sans;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+        
+        
+    }
+    .wrapper {
+        min-width: 350px;
+        border-radius: 15px;
+        overflow: hidden;
+
+
+    }
+    
+    .profile-card__p {
+        background-image: url(/images/bg-pattern-card.svg);
+        height: 100px;
+    }
+    .victor {
+        border-radius: 50px;
+        border: 5px solid white;
+        transform: translateY(-48px);
+
+    }
+
+    .content{
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 3rem;
+    }
+    
+    .footer {
+        background-color: white;
+        display: flex;
+        
+        padding-bottom: 1.5rem;
+        justify-content: space-evenly;
+
+    }
+
+    span {
+        font-weight: 200;
+        margin-left: 0.5rem;
+    }
+
+    p {
+        font-weight: 200;
+    }
+
+    h2 {
+        font-size: 1.3rem;
+        margin-bottom: 0.5rem;
+        margin-top: -1.5rem;
+    }
+    .london {
+        font-size: 1rem;
+    }
+
+    .social {
+        font-size: 0.75rem;
+    }
+
+    .followers, .likes, .photos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0.3rem;
+    }
+
+    .social, followers, photos {
+        letter-spacing: 1.7px;
+        font-size: 0.6rem;
+        
+    }
+    .bg-top {
+        z-index: -1;
+        position: absolute;
+        top: -50%;
+        left: -17%;
+        width: 1000px;
+
+    }
+    
+    .bg-buttom {
+        position: absolute;
+        bottom: -50%;
+        right: -20%;
+        z-index: -1;
+        width: 1000px;
+
+    }
+
+    
+        
+    
+
